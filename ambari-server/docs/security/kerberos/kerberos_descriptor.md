@@ -107,7 +107,7 @@ See [properties](#properties).
 
 Stack-level identities is an optional identities block containing a list of zero or more identity
 descriptors that are common among all services in the stack. An example of such an identity is the
-Ambari smoke test user, which is used by all services to perform service check operations. Service-
+Ambari smoke test user, which is used by all services to perform service check operations. Service-level
 and component-level identities may reference (and specialize) stack-level identities using the
 identity’s name with a forward slash (/) preceding it. For example if there was a stack-level identity
 with the name "smokeuser", then a service or a component may create an identity block that references
